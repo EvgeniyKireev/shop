@@ -1,0 +1,109 @@
+#header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin-left: 15px;
+
+}
+
+.cart {
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    text-align: right;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #dedede;
+    border-radius: 5px;
+    padding-right: 30px;
+
+}
+
+.osnova {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.item-main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item img {
+    height: 200px;
+    width: 200px;
+}
+
+#sidebar h3 {
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+#sidebar a {
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+}
+
+.product-detail {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.product {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.product-detail img {
+    height: 400px;
+    width: 600px;
+}
+
+.product-detail h1 {
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+
+.product-detail a {
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+
+}
